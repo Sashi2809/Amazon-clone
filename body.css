@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Permic&display=swap');
+
+
+
+
+*{
+  margin: 0;
+  
+}
+
+
+.slider{
+  overflow: hidden;
+  width: 100%;
+  height: 3000px;
+  position: relative;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: slide 17.5s infinite;
+}
+
+
+.slider .slide:nth-child(1) {
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg');
+  animation-delay: -0;
+}
+
+.slider .slide:nth-child(2) {
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/Sept/HDFC/Lugg/3000_lugg._CB595761141_.jpg');
+  animation-delay: -3.5s;
+}
+  
+.slider .slide:nth-child(3) {
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/Baby/D92807365-_1_Tallhero_2xx._CB598669664_.jpg');
+  animation-delay: -7s;
+}
+  
+.slider .slide:nth-child(4) {
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img17/Home/AmazonTV/HipHopIndia/GW_Hero_PC/3000x1200Final1._CB595596777_.jpg');
+  animation-delay: -10.5s;
+}
+
+.slider .slide:nth-child(5) {
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/vendorcentral/supporthub/trainingCourses/learningPaths/5300-Kitchen---Water-bottles--Lunch-box--hero-v2-3000-x-1200-_Under_1._CB601243436_.jpg');
+  animation-delay: -14s;
+}
+
+@keyframes slide {
+  0%, 17%, 100% {
+    transform: translateX(0);
+    animation-timing-function: ease;
+  }
+  20% {
+    transform: translateX(-100%);
+    animation-timing-function: step-end;
+  }
+  97% {
+    transform: translateX(100%);
+    animation-timing-function: ease;
+  }
+}
+
+
+.step-cards{
+  
+  width: 1346px;
+  height: 460px;
+  display: flex;
+  
+  position: relative;
+  top: 280px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  
+}
+
+.amaz-cards{
+  width: 316.5px;
+  height: 420px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.first-card h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+
+
+.card-img1 {
+  display: flex;
+}
+
+.card-img1 img{
+height: 80px;
+}
+
+.card-img1 li{
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.card-img1 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img1 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+
+.card-img2 {
+  display: flex;
+ 
+}
+
+.card-img2 img{
+height: 80px;
+}
+
+.card-img2 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img2 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img2 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.card-img2{
+  padding-top: 36px;
+}
+
+.card-offers-1{
+  padding-top: 40px;
+  padding-left: 18px;
+}
+
+.card-offers-1 li{
+  list-style: none;
+
+}
+
+.card-offers-1 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.second-card h2{
+  padding: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+
+
+.card-img3 {
+  display: flex;
+  
+}
+
+.card-img3 img{
+height: 80px;
+}
+
+.card-img3 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img3 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img3 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+.card-img4 {
+  display: flex;
+ 
+}
+
+.card-img4 img{
+height: 80px;
+}
+
+.card-img4 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img4 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img4 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.card-img4{
+  padding-top: 20px;
+}
+
+.card-offers-2{
+  padding-top: 25px;
+  padding-left: 18px;
+}
+
+.card-offers-2 li{
+  list-style: none;
+}
+
+.card-offers-2 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+.third-card h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+
+
+.card-img5 {
+  display: flex;
+  
+}
+
+.card-img5 img{
+height: 80px;
+}
+
+.card-img5 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img5 ul{
+padding-left: 17px;
+padding-right: 0px;
+}
+.ext-third-card{
+  padding-right: 15px;
+}
+
+.card-img5 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+.card-img6 {
+  display: flex;
+ 
+}
+
+.card-img6 img{
+height: 80px;
+}
+
+.card-img6 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img6 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img6 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.card-img6{
+  padding-top: 20px;
+}
+
+.card-offers-3{
+  padding-top: 40px;
+  padding-left: 18px;
+}
+
+.card-offers-3 li{
+  list-style: none;
+}
+
+.card-offers-3 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+.fourth-card h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+
+
+.card-img7 {
+  display: flex;
+}
+
+.card-img7 img{
+height: 80px;
+}
+
+.card-img7 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img7 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img7 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+
+.card-img8 {
+  display: flex;
+ 
+}
+
+.card-img8 img{
+height: 80px;
+}
+
+.card-img8 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img8 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img8 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.card-img8{
+  padding-top: 36px;
+}
+
+.card-offers-4{
+  padding-top: 40px;
+  padding-left: 18px;
+}
+
+.card-offers-4 li{
+  list-style: none;
+}
+
+.card-offers-4 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.body{
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #d5d6da 50%, #e0e0e0 100%);
+ 
+}
+
+
+.next-cards{
+  
+  width: 1346px;
+  height: 460px;
+  display: flex;
+  
+  position: relative;
+  top: 280px;
+  padding: 10px;
+  
+  
+}
+
+.jung-cards{
+  width: 312px;
+  height: 420px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+
+.fifth-card h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+
+
+.card-img9 {
+  display: flex;
+}
+
+.card-img9 img{
+height: 80px;
+}
+
+.card-img9 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img9 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img9 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+
+.card-img10 {
+  display: flex;
+ 
+}
+
+.card-img10 img{
+height: 80px;
+}
+
+.card-img10 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img10 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img10 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.card-img10{
+  padding-top: 36px;
+}
+
+.card-offers-5{
+  padding-top: 40px;
+  padding-left: 18px;
+}
+
+.card-offers-5 li{
+  list-style: none;
+}
+
+.card-offers-5 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+.sixth-card h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+
+
+.card-img11 {
+  display: flex;
+}
+
+.card-img11 img{
+height: 80px;
+}
+
+.card-img11 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img11 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img11 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+
+
+.card-img12 {
+  display: flex;
+ 
+}
+
+.card-img12 img{
+height: 80px;
+}
+
+.card-img12 li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.card-img12 ul{
+padding-left: 17px;
+padding-right: 5px;
+}
+
+.card-img12 ul li a{
+text-decoration: none;
+color: black;
+font-size: 11px;
+
+font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+.card-img12{
+  padding-top: 36px;
+}
+
+.card-offers-6{
+  padding-top: 40px;
+  padding-left: 18px;
+}
+
+.card-offers-6 li{
+  list-style: none;
+}
+
+.card-offers-6 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+.seventh-card h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+.card-img20 ul li{
+  list-style: none;
+}
+
+.card-img20 img{
+  
+    height: 255px;
+    padding: 20px;
+}
+
+
+.card-offers-7{
+  padding-top: 19px;
+  padding-left: 18px;
+}
+
+.card-offers-7 li{
+  list-style: none;
+}
+
+.card-offers-7 li a{
+  text-decoration: none;
+  color: rgb(73, 159, 194);
+  font-size: 12.5px;
+
+  font-family: 'Noto Sans Old Permic', sans-serif;
+}
+
+
+/* .card-hover:hover{
+  text-decoration: underline;
+  color: orangered;
+} */
+
+.card-hover a:hover{
+  color: orangered;
+  text-decoration: underline;
+}
+
